@@ -1,0 +1,13 @@
+{
+  "name": "ChangeBackground",
+  "description": "Changes desktop background by rotating through a list",
+  "uuid": "ChangeBackground",
+  "shell-version": [
+    "3.36",
+    "3.38",
+    "40",
+    "41",
+    "42",
+    "43"
+  ]
+}
