@@ -7,8 +7,8 @@ const Me = imports.misc.extensionUtils.getCurrentExtension();
 
 let button;
 
-function _myChangeBackground() {
-  Util.spawnCommandLine(`bash ${Me.path}/change-background.sh`);
+function _myChangeDesktopBackground() {
+  Util.spawnCommandLine(`bash ${Me.path}/change-desktop-background.sh`);
 }
 
 function init() {
@@ -25,7 +25,7 @@ function init() {
   });
 
   button.set_child(icon);
-  button.connect('button-press-event', _myChangeBackground);
+  button.connect('button-press-event', _myChangeDesktopBackground);
 }
 
 function enable() {

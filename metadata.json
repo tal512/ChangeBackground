@@ -1,7 +1,7 @@
 {
-  "name": "ChangeBackground",
-  "description": "Changes desktop background by rotating through a list",
-  "uuid": "ChangeBackground",
+  "name": "ChangeDesktopBackground",
+  "description": "Changes desktop background by cycling through a list",
+  "uuid": "ChangeDesktopBackground",
   "shell-version": [
     "3.36",
     "3.38",
